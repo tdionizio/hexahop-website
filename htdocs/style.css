@@ -1,0 +1,153 @@
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #333;
+  background-color: #b9ddfe;
+  font-family: sans-serif;
+}
+
+div#center {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(water.jpg);
+  background-repeat: repeat-y;
+  position: relative;
+  min-height: 505px;
+  padding-bottom: 350px;
+  -moz-box-shadow:0 0 20px 3px #000000;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+}
+
+div#title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 505px;
+  background-image: url(top.jpg);
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+}
+
+div#content {
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 300px;
+  background-image: url(white50.png);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius-topleft: 0px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-radius-topleft: 0px;
+  
+  padding: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+div#tabs {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top:300px;
+  height: 24px;
+}
+
+div#tabs a, div#tabs div.selected {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 8px;
+  padding-top: 4px;
+  margin-right: 15px;
+  background-image: url(grey50.png);
+  height: 12px;
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius-topleft: 5px;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-radius-topleft: 5px;
+  border-radius-topright: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-radius-topright: 5px;
+}
+
+div#tabs a:hover, div#tabs div.selected {
+  background-image: url(white50.png);
+  color: #000;
+}
+
+div.item {
+  clear: both;
+  margin-bottom: 20px;
+}
+
+div.item:last-of-type {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 130%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .25em;
+}
+
+div.item h2 {
+  border-bottom: 2px solid #0071bf;
+  color: #00385f;
+}
+
+a.screenshot {
+  margin: 12px;
+}
+
+a.screenshot img {
+  border: 2px solid black;
+}
+
+a.screenshot:hover img {
+  border: 2px solid #0071bf;
+}
+
+p {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+p:first-of-type {
+  margin-top: .25em;
+}
+
+div.item a {
+color: #00385F;
+text-decoration: none;
+}
+
+div.item a:hover {
+text-decoration: underline;
+}

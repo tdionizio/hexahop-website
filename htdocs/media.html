@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<title>Hex-a-Hop -- Media</title>
+<link type="text/css" rel="stylesheet" media="all" href="style.css" />
+<link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="icon" type="image/gif" href="icon.gif" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.easing.js"></script> 
+<script type="text/javascript" src="fancybox/jquery.fancybox.js"></script> 
+<script type="text/javascript">
+$(document).ready(function() {  
+  $("a.screenshot").fancybox({
+    'hideOnContentClick': false
+  });
+});
+</script>
+</head>
+
+<body>
+<div id='center'>
+  <div id='title'>&nbsp;</div>
+  <div id='tabs'>
+    <a href='index.html'>News</a>
+    <a href='about.html'>About</a>
+    <div class='selected'>Media</div>
+    <a href='downloads.html'>Downloads</a>
+    <a href='credits.html'>Credits</a>
+  </div>
+  <div id='content'>
+    <div class='item'>
+      <h2>Screenshots</h2>
+      <p>
+        <a href='images/screenshot1.jpg' rel='screens' class='screenshot left'><img src='images/previews/screenshot1.jpg' alt='1 of 4' /></a>
+        <a href='images/screenshot2.jpg' rel='screens' class='screenshot right'><img src='images/previews/screenshot2.jpg' alt='2 of 4' /></a>
+        <a href='images/screenshot3.jpg' rel='screens' class='screenshot left'><img src='images/previews/screenshot3.jpg' alt='3 of 4' /></a>
+        <a href='images/screenshot4.jpg' rel='screens' class='screenshot right'><img src='images/previews/screenshot4.jpg' alt='4 of 4' /></a>
+      </p>
+    </div>
+    <div class='item'>
+      <h2>Videos</h2>
+      <p>Embed YouTube videos soon be here.</p>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
