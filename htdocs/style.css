@@ -151,3 +151,12 @@ text-decoration: none;
 div.item a:hover {
 text-decoration: underline;
 }
+
+div.sflogo {
+  text-align: center;
+  width: 100%;
+}
+
+div.sflogo img {
+  border: 0;
+}
