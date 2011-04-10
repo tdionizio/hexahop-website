@@ -20,7 +20,6 @@ div#center {
   background-image: url(water.jpg);
   background-repeat: repeat-y;
   position: relative;
-  min-height: 505px;
   padding-bottom: 350px;
   -moz-box-shadow:0 0 20px 3px #000000;
   margin-bottom: 20px;
