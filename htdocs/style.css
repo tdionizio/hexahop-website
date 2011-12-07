@@ -75,7 +75,7 @@ div#tabs {
   height: 24px;
 }
 
-div#tabs a, div#tabs div.selected {
+div#tabs a, div#tabs .selected {
   display: block;
   float: left;
   margin: 0;
@@ -95,7 +95,7 @@ div#tabs a, div#tabs div.selected {
   -webkit-border-radius-topright: 5px;
 }
 
-div#tabs a:hover, div#tabs div.selected {
+div#tabs a:hover, div#tabs .selected {
   background-image: url(white50.png);
   color: #000;
 }
