@@ -48,10 +48,9 @@ div#content {
   position: relative;
   top: 300px;
   background-image: url(white50.png);
-  border-radius: 10px;
+  border-radius: 0 10px 10px 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
-  border-radius-topleft: 0px;
   -moz-border-radius-topleft: 0px;
   -webkit-border-radius-topleft: 0px;
   
@@ -87,10 +86,9 @@ div#tabs a, div#tabs .selected {
   color: #333;
   font-weight: bold;
   text-decoration: none;
-  border-radius-topleft: 5px;
+  border-radius: 5px 5px 0 0;
   -moz-border-radius-topleft: 5px;
   -webkit-border-radius-topleft: 5px;
-  border-radius-topright: 5px;
   -moz-border-radius-topright: 5px;
   -webkit-border-radius-topright: 5px;
 }
